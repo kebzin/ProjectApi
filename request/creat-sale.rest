@@ -1,0 +1,10 @@
+POST http://localhost:3009/api/sale 
+content-type: application/json 
+
+{
+  "description": "Apple",
+  "qty": 2,
+  "price": 200,
+  "Total": 400,
+  "userId": "6360fbe0069d35d3c5bb4895"
+}

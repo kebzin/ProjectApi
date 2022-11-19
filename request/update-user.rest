@@ -1,0 +1,11 @@
+PUT http://localhost:3009/api/user/6377c3efe64e9b78dbf6b5f4
+content-type: application/json
+
+{
+    "firstName": "kebba",
+  "lastName": "waiga",
+  "phoneNumber":"12345689",
+  "email":"kebbawaiga@gmail.com",
+  "password":"password"
+  
+}

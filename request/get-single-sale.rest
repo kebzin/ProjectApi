@@ -1,0 +1,7 @@
+GET http://localhost:3009/api/sale/6378cf75fca3751739b66aac
+
+GET http://localhost:3009/api/sale/sale/6378cf75fca3751739b66aac
+content-type: application/json 
+{
+  "userId": "6360fbe0069d35d3c5bb4895"
+}

@@ -1,0 +1,3 @@
+
+// GETT SINGLE USER 
+GET http://localhost:3009/api/user/6377c3efe64e9b78dbf6b5f4
