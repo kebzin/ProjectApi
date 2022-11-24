@@ -1,4 +1,4 @@
-POST http://localhost:3009/api/sale 
+POST http://localhost:3009/api/Property 
 content-type: application/json 
 
 {

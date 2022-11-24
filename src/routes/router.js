@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { createUser, getAllUsers, getOneUser,  deleteOne ,updateOne} = require('../controllers/user');
-const { createSale, getAllSale, getOneSale, updateOneSale  ,deleteOneSale } = 
-require('../controllers/sale');
+const { createProperty, getAllProperty, getOneProperty, updateOneProperty  ,deleteOneProperty } = 
+require('../controllers/properties');
 // User route
 router.post('/user', createUser);
 router.get('/user', getAllUsers);
@@ -11,10 +11,10 @@ router.put('/user/:id', updateOne);
 router.delete('/user/:id', deleteOne);
 
 // Sale route
-router.post('/sale', createSale);
-router.get('/sale', getAllSale);
-router.get('/sale/:id', getOneSale);
-router.put('/sale/:id', updateOneSale)
-router.delete('/sale/:id', deleteOneSale);
+router.post('/Property', createProperty);
+router.get('/Property', getAllProperty);
+router.get('/Property/:id', getOneProperty);
+router.put('/Property/:id', updateOneProperty)
+router.delete('/Property/:id', deleteOneProperty);
 
 module.exports = router

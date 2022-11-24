@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema(
     phoneNumber:{
         type: String
     },
-    sales: [
+    properties: [
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'sale'

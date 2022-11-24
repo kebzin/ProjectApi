@@ -1,6 +1,6 @@
 
 
 // GETT ALL THE USER DDATA
-GET http://localhost:3009/api/user/
+GET http://localhost:3009/api/user
 
 

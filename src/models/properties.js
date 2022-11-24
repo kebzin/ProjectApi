@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const saleSchema = new mongoose.Schema(
+const propertiesSchema = new mongoose.Schema(
   {
     description: {
       type: String,
@@ -24,12 +24,12 @@ const saleSchema = new mongoose.Schema(
   },
   { timestamps: true }
 )
-saleSchema.set('toJSON', {
+propertiesSchema.set('toJSON', {
   transform: (document, returnedObject) => {
     returnedObject.id = returnedObject._id.toString()
     delete returnedObject._id
     delete returnedObject.__v
   }
 })
-const Sale  = mongoose.model('sale', saleSchema)
+const Sale  = mongoose.model('sale', propertiesSchema)
 module.exports = Sale

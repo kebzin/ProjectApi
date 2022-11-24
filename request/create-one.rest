@@ -2,11 +2,11 @@ POST http://localhost:3009/api/user HTTP/1.1
 content-type: application/json
 
 {
-  "firstName": "kebba",
-  "lastName": "waiga",
+  "firstName": "buba",
+  "lastName": "camara",
   "phoneNumber":"12345689",
-  "email":"kebbawaiga@gmail.com",
-  "password":"password"
+  "email":"buba@gmail.com",
+  "password":"buba"
   
 }
 
