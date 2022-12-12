@@ -31,5 +31,5 @@ propertiesSchema.set('toJSON', {
     delete returnedObject.__v
   }
 })
-const Sale  = mongoose.model('sale', propertiesSchema)
-module.exports = Sale
+const Properties  = mongoose.model('properties', propertiesSchema)
+module.exports = Properties

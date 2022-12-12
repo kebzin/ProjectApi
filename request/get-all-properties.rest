@@ -1,4 +1,4 @@
-GET http://localhost:3009/api/Property/
+GET http://localhost:3009/api/Property
 
 # GET http://localhost:3009/api/Property 
 # content-type: application/json 
@@ -9,3 +9,7 @@ GET http://localhost:3009/api/Property/
 
 
 
+#  question why are we passing the id when we are getting all the property
+
+# in my controller when i remove the user id from the find all property i will get all the property 
+# but when i put the user id in the find all property the i will get only to property

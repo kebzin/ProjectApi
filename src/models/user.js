@@ -34,7 +34,7 @@ const userSchema = new mongoose.Schema(
     properties: [
       {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'sale'
+        ref: 'properties'
       }
     ]
   },
